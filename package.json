@@ -1,0 +1,34 @@
+{
+  "name": "cli-application",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlonaMaliarchyk/CLI-application.git"
+  },
+  "keywords": [],
+  "author": "YOUR_NAME <YOUR_EMAIL\nsimorot@ukr.net\n\nnpm config set init.author.email YOUR_EMAIL>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlonaMaliarchyk/CLI-application/issues"
+  },
+  "homepage": "https://github.com/AlonaMaliarchyk/CLI-application#readme",
+  "dependencies": {
+    "commander": "^10.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "nanoid": "^3.3.4",
+    "yargs": "^17.7.1"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0",
+    "nodemon": "^2.0.22",
+    "ts-node": "^10.9.1"
+  }
+}
